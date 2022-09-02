@@ -47,48 +47,57 @@
 
 (configuration-layer/declare-layers
  '(
-   ;; 1. Chat
+   ;; 2. Chat
 
-   ;; 2. Checkers
+   ;; 3. Checkers
 
-   ;; 3. Completion
+   ;; 4. Completion
 
-     ;; 4. Distributionss
+   ;; 5. Email
 
-     ;; 5. Emacs
+   ;; 6. Emacs
 
-   ;; 6. Email
+   ;; 7. File trees
 
-   ;; 7. Frameworks
+   ;; 8. Fonts
 
-   ;; 8. Fun
+   ;; 9. Fun
    emoji
    games
    xkcd
 
-   ;; 9. international
-
-   ;; 10. Programming  and markup languages
+   ;; 10. International
 
    ;; 11. Misc
 
-   ;; 12. Operating Systems
+   ;; 12. Music
 
-   ;; 13. Pair Programing
+   ;; 13. Operating Systems
 
-   ;; 14. Source Control
+   ;; 14. Pair Programing
 
-   ;; 15. Spacemacs distribution layers
+   ;; 15. Programming  and markup languages
 
-   ;; 16. Tags
+   ;; 16. Readers
+   epub
+   pdf
+   speed-reading
 
-   ;; 17. Themes
+   ;; 17.
 
-   ;; 18. Tools
+   ;; 18. Source Control
 
-   ;; 19. Vim
+   ;; 19. Spacemacs
 
-   ;; 20. Web Services
+   ;; 20. Tags
+
+   ;; 21. Themes
+
+   ;; 22. Tools
+
+   ;; 23. Vim
+
+   ;; 24. Web Services
 
    ;; Misc
 
