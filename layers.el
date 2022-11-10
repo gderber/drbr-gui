@@ -1,94 +1,104 @@
-;;; layers.el --- 
+;;; layers.el ---
 ;;
 ;; Filename: layers.el
-;; Description: 
+;; Description:
 ;; Author: Geoff S Derber
-;; Maintainer: 
+;; Maintainer:
 ;; Created: Mon Jun 10 18:41:03 2019 (-0400)
-;; Version: 
+;; Version:
 ;; Package-Requires: ()
 ;; Last-Updated: Mon Jun 10 18:41:04 2019 (-0400)
 ;;           By: Geoff S Derber
 ;;     Update #: 1
-;; URL: 
-;; Doc URL: 
-;; Keywords: 
-;; Compatibility: 
-;; 
+;; URL:
+;; Doc URL:
+;; Keywords:
+;; Compatibility:
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
-;;; Commentary: 
-;; 
-;; 
-;; 
+;;
+;;; Commentary:
+;;
+;;
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Change Log:
-;; 
-;; 
+;;
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or (at
 ;; your option) any later version.
-;; 
+;;
 ;; This program is distributed in the hope that it will be useful, but
 ;; WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ;; General Public License for more details.
-;; 
+;;
 ;; You should have received a copy of the GNU General Public License
 ;; along with GNU Emacs.  If not, see <https://www.gnu.org/licenses/>.
-;; 
+;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; 
+;;
 ;;; Code:
 
 (configuration-layer/declare-layers
  '(
-   ;; 1. Chat
+   ;; 2. Chat
 
-   ;; 2. Checkers
+   ;; 3. Checkers
 
-   ;; 3. Completion
+   ;; 4. Completion
 
-     ;; 4. Distributionss
+   ;; 5. Email
 
-     ;; 5. Emacs
+   ;; 6. Emacs
 
-   ;; 6. Email
+   ;; 7. File trees
 
-   ;; 7. Frameworks
+   ;; 8. Fonts
 
-   ;; 8. Fun
+   ;; 9. Fun
    emoji
    games
+   ;;selectric
    xkcd
 
-   ;; 9. international
-
-   ;; 10. Programming  and markup languages
+   ;; 10. International
 
    ;; 11. Misc
 
-   ;; 12. Operating Systems
+   ;; 12. Music
 
-   ;; 13. Pair Programing
+   ;; 13. Operating Systems
 
-   ;; 14. Source Control
+   ;; 14. Pair Programing
 
-   ;; 15. Spacemacs distribution layers
+   ;; 15. Programming  and markup languages
 
-   ;; 16. Tags
+   ;; 16. Readers
+   epub
+   pdf
+   speed-reading
 
-   ;; 17. Themes
+   ;; 17.
 
-   ;; 18. Tools
+   ;; 18. Source Control
 
-   ;; 19. Vim
+   ;; 19. Spacemacs
 
-   ;; 20. Web Services
+   ;; 20. Tags
+
+   ;; 21. Themes
+
+   ;; 22. Tools
+
+   ;; 23. Vim
+
+   ;; 24. Web Services
 
    ;; Misc
 
